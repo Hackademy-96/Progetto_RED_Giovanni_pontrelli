@@ -1,0 +1,50 @@
+.colorelink{
+    color: #403d3d
+    ;
+}
+
+header{
+    background: url(./img/mountains.png) left bottom no-repeat, url(./img/switzerland-862870_1920.jpg) left top no-repeat;
+    
+
+    height: 70vw;
+    position: relative;
+    z-index: 1;
+}
+
+.loreminiziale{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: darkred;
+  font-family: 'Nova Square';
+  
+}
+
+.loremdue{
+    color: #403d3d}
+
+.tred{
+    color: darkred !important;
+    font-size: xx-large;
+}
+
+hr{
+    color: darkred !important;
+    
+}
+
+*{
+    border: 0px !important;
+    
+}
+
+.pulsantelorem{
+    font-family: 'Nova Square';
+    padding: 25px;
+    background-color: darkred;
+    color: white;
+
+}
+
