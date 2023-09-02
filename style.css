@@ -4,7 +4,7 @@
 }
 
 header{
-    background: url(./img/mountains.png) left bottom no-repeat, url(./img/switzerland-862870_1920.jpg) left top no-repeat;
+    background: url(./img/mountains2.png) left bottom no-repeat, url(./img/switzerland-862870_1920.jpg) left top no-repeat;
     
 
     height: 70vw;
@@ -23,16 +23,17 @@ header{
 }
 
 .loremdue{
-    color: #403d3d}
+    color: #403d3d;}
+
+.tred2{
+        color: darkred !important;
+        font-family: 'Nova Square';
+}
 
 .tred{
     color: darkred !important;
     font-size: xx-large;
-}
-
-hr{
-    color: darkred !important;
-    
+    font-family: 'Nova Square';
 }
 
 *{
@@ -46,5 +47,47 @@ hr{
     background-color: darkred;
     color: white;
 
+}
+
+.backgroundlorem{
+    background-image:url(./img/trees2.png);
+    width: 100%;
+    height: 60vh;
+}
+.backgroundcolore{
+    background-color: #ececec !important;
+}
+
+.backgroundbianco{
+    background-color: white !important;
+}
+
+.backgroundeimgcard{
+    background-image: url(./img/single.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.imgcerchiopiccola{
+    border-radius: 50%;
+    height: 8rem;
+}
+
+.imgcerchiogrande{
+    border-radius: 50%;
+    height: 18rem;
+}
+
+.imagebackgroundfoot{
+    background-image: url(./img/other.png);
+    height: 50vh;
+}
+
+
+
+.backgroundfooter{
+
+    background-color: darkred;
+    color: white !important;
 }
 
