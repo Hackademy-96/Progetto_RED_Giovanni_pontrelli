@@ -1,15 +1,16 @@
 .colorelink{
-    color: #403d3d
-    ;
+    color: #403d3d;
+    text-decoration: none;
 }
 
 header{
     background: url(./img/mountains2.png) left bottom no-repeat, url(./img/switzerland-862870_1920.jpg) left top no-repeat;
     
 
-    height: 50vh;
+    height:100vh;
     position: relative;
     z-index: 1;
+    opacity: 0.8;
 }
 
 .loreminiziale{
@@ -99,3 +100,34 @@ header{
     color: white !important;
 }
 
+ul li::marker{
+    color: darkred;
+    font-size: 1rem;
+}
+
+.linea{
+    height: 5px;
+    background-color: darkred;
+    width: 60%;
+    position:relative;
+}
+
+.bordo{
+    
+    background-color: darkred;
+    width: 2px;
+    height: 40px;
+
+}
+
+h5::before{
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 7.5px);
+    left: calc(50% - 7.5px);
+    border: 3px solid darkred;
+}
