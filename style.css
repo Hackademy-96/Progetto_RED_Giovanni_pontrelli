@@ -7,7 +7,7 @@ header{
     background: url(./img/mountains2.png) left bottom no-repeat, url(./img/switzerland-862870_1920.jpg) left top no-repeat;
     
 
-    height: 70vw;
+    height: 50vh;
     position: relative;
     z-index: 1;
 }
@@ -16,10 +16,18 @@ header{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)scale(3);
   color: darkred;
   font-family: 'Nova Square';
   
+  
+}
+
+.letter-spa{
+    letter-spacing: 1vw;}
+
+.font-title{
+    font-family: 'Oswald', sans-serif;
 }
 
 .loremdue{
@@ -70,12 +78,12 @@ header{
 
 .imgcerchiopiccola{
     border-radius: 50%;
-    height: 8rem;
+    height:6rem;
 }
 
 .imgcerchiogrande{
     border-radius: 50%;
-    height: 18rem;
+    height: 15rem;
 }
 
 .imagebackgroundfoot{
